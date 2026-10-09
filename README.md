@@ -23,4 +23,4 @@ The system relies on a localized AI Prediction Engine executing a strict **Zero-
 - **API Dependency Latency:** Upstream Shodan API rate limits occasionally induce `RequestException` states, forcing graceful degradation of the intelligence payload.
 - **WAF Fuzzing Expansion:** The DAST module is currently restricted to three static vectors (Mutated XSS, Fragmented SQLi, Path Traversal) and is being refactored to support dynamic YAML payload injection.
 
-*See `docs/PROJECT_WORK_BASED_2.pdf` for the complete architectural thesis and threat modeling parameters.*
+**[⏳ DEPLOYMENT PENDING: Full architectural thesis, threat modeling parameters, and source code modules will be published soon.]**
